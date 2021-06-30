@@ -1,0 +1,25 @@
+.jobListCatagory {
+  
+    margin: 100px 40px 100px 40px;
+}
+
+.jobList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 40px;
+  }
+
+.jobCard {
+    text-align: center;
+  }
+
+  .cardImg {
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cardImg:hover {
+    border-radius: 20px;
+    transform: scale(1.08);
+    transition: transform 2s;
+}
